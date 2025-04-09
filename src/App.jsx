@@ -40,9 +40,9 @@ const [weatherObj, setWeatherObj ] = useState({temp:0,city:"Chennai", country:"I
   };
   return (
     <>
-
-<div className="m-auto flex-wrap justify-center w-full max-w-md p-10 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 h-screen flex items-center bg-gradient-to-r from-gray-100 to-blue-100">
-<h1 className="font-extrabold text-blue-500 text-4xl"> Weather App</h1>
+<div className="bg-gradient-to-b from-white-100 via-blue-100 to-blue-300">
+<div className="m-auto flex-wrap justify-center w-full max-w-md p-10  h-screen flex items-center ">
+<h1 className="font-extrabold text-blue-500 text-5xl"> Weather App</h1>
  <div >
         <input
           type="text"
@@ -60,6 +60,9 @@ obj = {weatherObj}
       />
 </div>
  </div>
+
+</div>
+
     </>
   );
 }
