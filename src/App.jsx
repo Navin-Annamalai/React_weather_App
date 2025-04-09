@@ -64,7 +64,7 @@ obj = {weatherObj}
  <img
           src={weatherImg}
           alt="Weather"
-          className="justify-items-center sm:w-30 sm:h-30"
+          className="justify-items-center sm:w-15 sm:h-15"
         />
 </div>
 
