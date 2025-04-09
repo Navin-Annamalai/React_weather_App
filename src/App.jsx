@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Weather from "./Weather";
+import weatherImg from "./weather_1.png";
 
 let api_key = "912d826163770e0f2444a785334db68e";
 
@@ -60,7 +61,11 @@ obj = {weatherObj}
       />
 </div>
  </div>
-
+ <img
+          src={weatherImg}
+          alt="Weather"
+          className="justify-items-center sm:w-30 sm:h-30"
+        />
 </div>
 
     </>
