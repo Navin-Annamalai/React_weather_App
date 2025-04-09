@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 function Weather(props) {
-  console.log(props.obj);
-  
   const {temp, city, country, wind} = props.obj;
   
   return (

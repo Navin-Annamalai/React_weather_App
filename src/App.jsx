@@ -40,10 +40,10 @@ const [weatherObj, setWeatherObj ] = useState({temp:0,city:"Chennai", country:"I
   };
   return (
     <>
-<div className="bg-gradient-to-b from-white-100 via-blue-100 to-blue-300">
-<div className="m-auto flex-wrap justify-center w-full max-w-md p-10  h-screen flex items-center ">
-<h1 className="font-extrabold text-blue-500 text-5xl"> Weather App</h1>
- <div >
+ <div className="bg-gradient-to-b from-white via-blue-100 to-blue-200 min-h-screen justify-items-center mt-10">
+      <div className="w-full max-w-xl  rounded-2xl justify-items-center p-6 sm:p-10">
+        <h1 className=" font-extrabold text-blue-500 text-4xl sm:text-5xl mb-10"> Weather App</h1>
+ <div>
         <input
           type="text"
           className=" border-2 rounded-md px-3 py-1.5"
@@ -52,9 +52,9 @@ const [weatherObj, setWeatherObj ] = useState({temp:0,city:"Chennai", country:"I
           value={text}
           onKeyDown={handlekeydown}
         />
-        <button className="px-5 py-2 bg-blue-500 text-white font-bold rounded-md ml-8" onClick={search}>Go</button>
+        <button className="px-5 py-2 bg-blue-500 text-white font-bold rounded-md ml-8 mb-" onClick={search}>Go</button>
       </div>
-<div className=" mr-15 text-2xl mb-20">
+<div className=" mr-15 text-2xl mt-5">
 <Weather
 obj = {weatherObj}
       />
