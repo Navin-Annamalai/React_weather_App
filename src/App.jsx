@@ -40,7 +40,7 @@ const [weatherObj, setWeatherObj ] = useState({temp:0,city:"Chennai", country:"I
   };
   return (
     <>
- <div className="bg-gradient-to-b from-white via-blue-100 to-blue-200 min-h-screen justify-items-center mt-10">
+ <div className="bg-gradient-to-b from-white via-blue-100 to-blue-300 min-h-screen justify-items-center mt-10">
       <div className="w-full max-w-xl  rounded-2xl justify-items-center p-6 sm:p-10">
         <h1 className=" font-extrabold text-blue-500 text-4xl sm:text-5xl mb-10"> Weather App</h1>
  <div>
